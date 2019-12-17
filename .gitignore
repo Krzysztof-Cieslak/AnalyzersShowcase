@@ -1,0 +1,5 @@
+.ionide
+bin
+obj
+packages
+paket-files
