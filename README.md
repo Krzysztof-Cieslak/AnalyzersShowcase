@@ -8,8 +8,16 @@ This repo shows how to use F# Analyzer in your F# project. I'm using sample anal
 2. Install `fsharp-analyzers` tool as global .Net tool - `dotnet tool install fsharp-analyzers -g`
 3. Run tool with `--project` argument - `fsharp-analyzers --project .\AnalyzersTest.fsproj --verbose`
 
-
 ![](img/Sample.png)
+
+## How to use in editor
+
+1. Requires Ionide 4.4.0
+2. Open VSCode
+3. Go to settings and set `FSharp.enableAnalyzers` to `true`
+4. Reload window
+
+![](img/Sample-Code.png)
 
 ## How to add F# Analyzer to your project
 
