@@ -18,6 +18,12 @@ This repo shows how to use F# Analyzer in your F# project. I'm using sample anal
 3. Install `fsharp-analyzers` tool as global .Net tool - `dotnet tool install fsharp-analyzers -g`
 4. Run tool with `--project` argument - `fsharp-analyzers --project PATH_TO_YOUR_FSPROJ --verbose`
 
+## Learn more about F# Analyzers
+
+* Blog post introducing F# Analyzers - https://medium.com/lambda-factory/introducing-f-analyzers-772487889429
+* FSharp.Analyzers.SDK project (SDK for creating Analyzers, and `fsharp-analyzers` CLI tool) - https://github.com/ionide/FSharp.Analyzers.SDK
+* FSharp.Analyzers.Sample (sample analyzer used in this repo) - https://github.com/Krzysztof-Cieslak/FSharp.Analyzers.Sample
+
 
 ## Contributing and copyright
 
